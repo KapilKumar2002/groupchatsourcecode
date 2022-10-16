@@ -1,0 +1,45 @@
+# This file tracks properties of this Flutter project.
+# Used by Flutter tool to assess capabilities and perform upgrades etc.
+#
+# This file should be version controlled.
+
+version:
+  revision: cfc2ae6e3fadc62410f4504825830e6daa1dcc6c
+  channel: master
+
+project_type: app
+
+# Tracks metadata for the flutter migrate command
+migration:
+  platforms:
+    - platform: root
+      create_revision: cfc2ae6e3fadc62410f4504825830e6daa1dcc6c
+      base_revision: cfc2ae6e3fadc62410f4504825830e6daa1dcc6c
+    - platform: android
+      create_revision: cfc2ae6e3fadc62410f4504825830e6daa1dcc6c
+      base_revision: cfc2ae6e3fadc62410f4504825830e6daa1dcc6c
+    - platform: ios
+      create_revision: cfc2ae6e3fadc62410f4504825830e6daa1dcc6c
+      base_revision: cfc2ae6e3fadc62410f4504825830e6daa1dcc6c
+    - platform: linux
+      create_revision: cfc2ae6e3fadc62410f4504825830e6daa1dcc6c
+      base_revision: cfc2ae6e3fadc62410f4504825830e6daa1dcc6c
+    - platform: macos
+      create_revision: cfc2ae6e3fadc62410f4504825830e6daa1dcc6c
+      base_revision: cfc2ae6e3fadc62410f4504825830e6daa1dcc6c
+    - platform: web
+      create_revision: cfc2ae6e3fadc62410f4504825830e6daa1dcc6c
+      base_revision: cfc2ae6e3fadc62410f4504825830e6daa1dcc6c
+    - platform: windows
+      create_revision: cfc2ae6e3fadc62410f4504825830e6daa1dcc6c
+      base_revision: cfc2ae6e3fadc62410f4504825830e6daa1dcc6c
+
+  # User provided section
+
+  # List of Local paths (relative to this file) that should be
+  # ignored by the migrate tool.
+  #
+  # Files that are not part of the templates will be ignored by default.
+  unmanaged_files:
+    - 'lib/main.dart'
+    - 'ios/Runner.xcodeproj/project.pbxproj'
